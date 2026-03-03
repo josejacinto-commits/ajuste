@@ -1,0 +1,10 @@
+@import "tailwindcss";
+/* Forçar a ocultação do botão Open Sandbox */
+a[href*="codesandbox.io"],
+div[class*="csb-"],
+div[id*="csb-"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
